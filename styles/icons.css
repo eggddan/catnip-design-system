@@ -1,0 +1,31 @@
+@import url("./tokens.css");
+
+.catnip-icon {
+  width: var(--size-6);
+  height: var(--size-6);
+  color: var(--color-text-primary);
+  display: inline-block;
+  flex: none;
+}
+
+.catnip-icon--small {
+  width: var(--size-5);
+  height: var(--size-5);
+}
+
+.catnip-icon--large {
+  width: var(--size-8);
+  height: var(--size-8);
+}
+
+.catnip-icon--secondary {
+  color: var(--color-text-secondary);
+}
+
+.catnip-icon--inverse {
+  color: var(--color-text-inverse);
+}
+
+.catnip-icon--brand {
+  color: var(--color-brand-deep);
+}
